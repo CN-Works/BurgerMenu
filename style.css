@@ -86,12 +86,20 @@ body {
   left: 0;
 }
 
+.navbar {
+  height: 50px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  padding: 5px 10px;
+}
+
 .burgermenu-openbutton {
-  margin-left: 97%;
-  width: 3%;
-  max-height: 35px;
-  max-width: 35px;
-  aspect-ratio: 1/1;
+  height: 40px;
+  width: 40px;
 
   display: flex;
   flex-direction: column;
