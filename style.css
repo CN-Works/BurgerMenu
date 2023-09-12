@@ -12,7 +12,7 @@ body {
 }
 
 /* Sidenav menu */
-.sidenav {
+.burgermenu-opened {
   height: 100svh;
   width: 100%;
   position: fixed;
@@ -54,7 +54,7 @@ body {
 }
   
 /* Close btn */
-.close-button {
+.burgermenu-closebtn {
   position: absolute;
   top: 0;
 
@@ -82,11 +82,11 @@ body {
 }
 
 /* Active class */
-.sidenav.active {
+.burgermenu-opened.active {
   left: 0;
 }
 
-.navbar {
+.burgermenu-closed {
   height: 50px;
   width: 100%;
 
@@ -97,7 +97,7 @@ body {
   padding: 5px 10px;
 }
 
-.burgermenu-openbutton {
+.burgermenu-openbtn {
   height: 40px;
   width: 40px;
 
