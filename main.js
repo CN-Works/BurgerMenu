@@ -1,6 +1,6 @@
-let sidenav = document.getElementById("mySidenav");
-let openBtn = document.getElementById("openBtn");
-let closeBtn = document.getElementById("closeBtn");
+let sidenav = document.getElementById("burgermenu-opened");
+let openBtn = document.getElementById("burgermenu-openbtn");
+let closeBtn = document.getElementById("burgermenu-closebtn");
 
 openBtn.onclick = openNav;
 closeBtn.onclick = closeNav;
