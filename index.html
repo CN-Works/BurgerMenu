@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site cool</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js" defer></script>
 </head>
 <body>
     <div id="burgermenu-opened" class="burgermenu-opened">
-        <a id="burgermenu-closebtn" href="#" class="burgermenu-closebtn">
+        <a onclick="document.getElementById('burgermenu-opened').classList.remove('active');" href="#" class="burgermenu-closebtn">
             <img class="burgermenu-openbutton-image" src="./img/cross.png" alt="Cross button">
         </a>
 
@@ -22,7 +21,7 @@
     </div>
 
     <div class="burgermenu-closed">
-        <a class="burgermenu-openbtn" href="#" id="burgermenu-openbtn">
+        <a onclick="document.getElementById('burgermenu-opened').classList.add('active');" class="burgermenu-openbtn" href="#">
             <img class="burgermenu-openbutton-image" src="./img/burgermenu_button.png" alt="Burger menu icon">
         </a>
     </div>
